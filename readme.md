@@ -15,7 +15,7 @@ The code is mainly generated using Claude plus minor fixes on lib dependencies a
 4. install dependencies by `poetry install`
 5. download the model data for `dlib` by `wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2` then `bunzip2 shape_predictor_68_face_landmarks.dat.bz2`
 6. locate your image in `.jpg` format that wants to be process
-7. run the following command `poetry run python mhw_character_generator.py`
+7. run the following command `poetry run python mhw_character_generator.py {{path/to/img}}.jpg`
 
 ## output
 the output will be the in json format contains in the file `{{filename}}_mhw_params.json`
