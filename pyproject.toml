@@ -1,0 +1,20 @@
+[project]
+name = "monster-hunter-wild-pic2data"
+version = "0.1.0"
+description = ""
+authors = [{ name = "DrEdwardPCB", email = "eternal.edward1997@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "dlib (==19.24.2)",
+    "cmake (>=3.31.6,<4.0.0)",
+    "numpy (==1.26.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
